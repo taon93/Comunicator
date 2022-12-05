@@ -1,4 +1,4 @@
-package com.example.comunicatorserver.model;
+package com.example.communicatorserver.model;
 
 import jakarta.persistence.*;
 import lombok.*;
@@ -6,6 +6,7 @@ import org.hibernate.Hibernate;
 
 import java.util.List;
 import java.util.Objects;
+import java.util.Optional;
 
 @Entity
 @Getter
@@ -19,7 +20,7 @@ public class Chat {
     private Long chatId;
     @OneToMany(mappedBy = "chat")
     @Column(name = "chat_messages")
-    private List<ChatMessage> chatMessages;
+    private List<OutputMessage> chatMessages; // placeholder
     @ManyToMany
     @Column(name = "users")
     private List<User> users;

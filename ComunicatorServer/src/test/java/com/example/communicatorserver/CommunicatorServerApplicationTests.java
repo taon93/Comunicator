@@ -1,10 +1,10 @@
-package com.example.comunicatorserver;
+package com.example.communicatorserver;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class ComunicatorServerApplicationTests {
+class CommunicatorServerApplicationTests {
 
     @Test
     void contextLoads() {

@@ -1,7 +1,8 @@
-package com.example.comunicatorserver.model;
+package com.example.communicatorserver.model;
 
 import jakarta.persistence.*;
 
+import javax.annotation.processing.Generated;
 import java.util.List;
 
 @Entity
